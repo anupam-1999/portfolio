@@ -1,41 +1,23 @@
-# Anupam Roy — Backend Engineer Portfolio
+# Anupam Roy — HD Portfolio
 
-A premium, recruiter-focused static portfolio inspired by the information architecture of the reference portfolio supplied by the user, but written and designed specifically around Anupam Roy's backend engineering profile.
+Premium dark, responsive portfolio for Anupam Roy, built as a static HTML/CSS/JS site.
 
-## Included
-- Professional portrait supplied by Anupam Roy
-- Recruiter-first hero and measurable engineering snapshot
-- About, capabilities and experience
-- Flagship `production-grade-api` project with real GitHub links
-- Clearly labelled future projects
-- Engineering principles
-- Education, recognition and certifications
-- LinkedIn, GitHub and email CTAs
-- Responsive mobile design
-- No build step required
+## Verified profile basis
+Content is aligned to the latest supplied resume and LinkedIn profile PDF:
+- Software Engineer at Tata Consultancy Services, client Avis Budget Group
+- 4+ years of experience
+- GraphQL, TypeScript, NestJS, PostgreSQL, Redis, Kafka, AWS, kubectl, Argo CD, Concourse CI/CD
+- 8-member offshore team leadership
+- Sub-15ms GraphQL response times
+- Up to 25× Redis key-size reduction
+- Technical Excellence Award, Special Initiative Award, Applause for Team Award, Xcelerate Warrior
+- B.Tech in Computer Science & Engineering, DGPA 7.60
 
 ## Run locally
+Open `index.html` in a browser after extracting the project.
 
-```bash
-python -m http.server 8080
-```
+## Deploy
+Push the project to `anupam-1999/portfolio` and enable GitHub Pages from the `main` branch, root folder.
 
-Open http://localhost:8080
-
-## GitHub Pages
-
-Create a public repository such as `portfolio`, copy all files into it, push to `main`, then enable:
-
-Settings → Pages → Deploy from branch → `main` → `/ (root)`
-
-## Vercel
-
-Import the repository into Vercel as a static site. No build command is needed.
-
-## Important content rule
-
-Future project cards are intentionally marked `NEXT BUILD` until the corresponding repositories exist. Change them to live links only after the projects are actually built.
-
-## Suggested final URL
-
-Use a custom domain later if desired. A GitHub Pages URL is fine to start.
+Expected site:
+`https://anupam-1999.github.io/portfolio/`
